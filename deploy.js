@@ -4,7 +4,7 @@ const { interface, bytecode } = require("./compile");
 
 const provider = new HDWalletProvider(
   "replace with MNEMONIC",
-  "https://rinkeby.infura.io/v3/15c1d32581894b88a92d8d9e519e476c"
+  "use infrura Api to connect to deploy your contract to node of required test network"
 );
 const web3 = new Web3(provider);
 
