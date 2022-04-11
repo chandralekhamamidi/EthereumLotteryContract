@@ -8,7 +8,7 @@ contract Lottery {
         manager = msg.sender;
     }
     
-    function enter() public payable {
+    function enterAsParticipant() public payable {
         require(msg.value > .01 ether);
         players.push(msg.sender);
     }
